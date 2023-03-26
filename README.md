@@ -2,7 +2,7 @@
 in this repo i will implement some simple crypto attacks such as brute force attack and dictionary attack on C language to take advantage of its speed
 
 # dictionnary attack :
-in this version of the dictionary attack we will use a 1 million version of the famous rockyou dictionary to crack md5 hashes , in order to use it first define your target , lets say the word "password" , start by hashing it using the commande :
+in this version of the dictionary attack we will use a 1 million version of the famous rockyou dictionary to crack md5 hashes , in order to use it first define your target , lets say the word "password" , start by hashing it using the commande :</br>
 echo "password" | md5
 this will give you the hash of the word "password" : 5f4dcc3b5aa765d61d8327deb882cf99
 then  run the DictAttack.c file using the command :
